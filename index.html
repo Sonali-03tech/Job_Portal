@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Portal </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* Body Styling */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f0ff;
+        }
+
+        /* Sidebar */
+        .sidenav {
+            height: 100%;
+            width: 200px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #6a0dad; /* Purple */
+            padding-top: 20px;
+        }
+
+        .sidenav h2 {
+            color: white;
+            text-align: center;
+        }
+
+        .sidenav a {
+            padding: 12px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+        }
+
+        .sidenav a:hover {
+            background-color: #8a2be2;
+        }
+
+        /* Main Content */
+        .main {
+            margin-left: 220px;
+            padding: 20px;
+        }
+
+        /* Header */
+        .header {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            color: #6a0dad;
+        }
+
+        /* Search Box */
+        .search-box {
+            margin-top: 20px;
+        }
+
+        .search-box input {
+            padding: 10px;
+            width: 250px;
+            border: 2px solid #6a0dad;
+            border-radius: 5px;
+        }
+
+        .search-box button {
+            padding: 10px 20px;
+            background-color: #6a0dad;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .search-box button:hover {
+            background-color: #8a2be2;
+        }
+
+        /* Job Cards */
+        .jobs {
+            margin-top: 30px;
+        }
+
+        .job-card {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 5px solid #6a0dad;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .job-card h3 {
+            margin: 0;
+            color: #6a0dad;
+        }
+
+        .apply-btn {
+            background-color: #6a0dad;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .apply-btn:hover {
+            background-color: #8a2be2;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidenav">
+        <h2>Job Portal</h2>
+        <a href="#">Home</a>
+        <a href="#">Jobs</a>
+        <a href="#">Login</a>
+        <a href="#">Register</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+        <div class="header">
+            <h1>NextStep jobs </h1>
+            <p>Find Your Dream Job</p>
+
+            <!-- Search Section -->
+            <div class="search-box">
+                <input type="text" placeholder="Search jobs...">
+                <button>Search</button>
+            </div>
+        </div>
+
+        <!-- Featured Jobs -->
+        <div class="jobs">
+            <h2 style="color:#6a0dad;">Featured Jobs</h2>
+
+            <div class="job-card">
+                <h3>Frontend Developer</h3>
+                <p>Company: TechnoTech | Location: Delhi</p>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+
+            <div class="job-card">
+                <h3>Backend Developer</h3>
+                <p>Company:Technanosoft Technologies  | Location: Noida</p>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+
+            <div class="job-card">
+                <h3>Data Analyst</h3>
+                <p>Company: Infosys | Location: Gurgaon</p>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+        </div>
+
+               </footer>
+    </div>
+
+</body>
+</html>
